@@ -125,27 +125,7 @@ int main(int argc, char **argv)
     }
 
     ros::Duration(5.0).sleep();
-    
 
-    // Cycle between different shapes
-    /*
-    shape = visualization_msgs::Marker::SPHERE;
-    switch (shape)
-    {
-    case visualization_msgs::Marker::CUBE:
-      shape = visualization_msgs::Marker::SPHERE;
-      break;
-    case visualization_msgs::Marker::SPHERE:
-      shape = visualization_msgs::Marker::ARROW;
-      break;
-    case visualization_msgs::Marker::ARROW:
-      shape = visualization_msgs::Marker::CYLINDER;
-      break;
-    case visualization_msgs::Marker::CYLINDER:
-      shape = visualization_msgs::Marker::CUBE;
-      break;
-    }
-    */
 
     loop_rate.sleep();
     return 0;
