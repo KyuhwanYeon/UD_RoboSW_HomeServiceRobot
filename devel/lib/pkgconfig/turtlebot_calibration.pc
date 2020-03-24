@@ -1,8 +1,0 @@
-prefix=/home/khyeon/workspace/020_HomeServiceRobot/devel
-
-Name: turtlebot_calibration
-Description: Description of turtlebot_calibration
-Version: 2.3.7
-Cflags: -I/home/khyeon/workspace/020_HomeServiceRobot/devel/include
-Libs: -L${prefix}/lib 
-Requires: std_msgs message_runtime
